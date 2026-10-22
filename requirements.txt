@@ -1,0 +1,7 @@
+# Dépendances d'exécution d'Ordo
+customtkinter>=5.2.2      # interface graphique moderne (sur Tkinter)
+watchdog>=4.0             # surveillance du dossier en temps réel
+platformdirs>=4.0         # dossiers standards (Téléchargements, Documents…) multi-OS
+pystray>=0.19.5           # icône dans la zone de notification (Windows, Linux)
+Pillow>=10.0              # icônes dessinées et logo
+Send2Trash>=1.8           # envoi à la corbeille au lieu de supprimer
