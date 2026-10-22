@@ -90,3 +90,9 @@ tests           les tests, à lancer avec : python -m pytest
 
 Les réglages et l'historique sont enregistrés dans le dossier utilisateur
 (AppData sous Windows). Réglages > Avancé permet de les ouvrir directement.
+
+
+IA
+--
+
+L'intelligence artificielle a été utilisée pour concevoir la charte graphique et structurer graphiquement les rubriques de ce projet.
