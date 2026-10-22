@@ -121,3 +121,5 @@ def _linux(enabled: bool) -> None:
         "Terminal=false\n",
         encoding="utf-8",
     )
+
+# GROGNON

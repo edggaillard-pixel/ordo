@@ -104,3 +104,5 @@ class TrayIcon:
             except Exception:  # noqa: BLE001
                 pass
             self._icon = None
+
+# GROGNON

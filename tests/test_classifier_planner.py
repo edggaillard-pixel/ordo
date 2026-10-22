@@ -123,3 +123,5 @@ def test_settings_roundtrip(settings, tmp_path: Path) -> None:
     store.path.write_text("{pas du json", encoding="utf-8")
     assert store.load().mode == "review"
     assert store.path.with_suffix(".invalide.json").exists()
+
+# GROGNON

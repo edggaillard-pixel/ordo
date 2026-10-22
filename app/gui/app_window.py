@@ -370,3 +370,5 @@ class AppWindow(ctk.CTk):
         if self.tray:
             self.tray.stop()
         self.destroy()
+
+# GROGNON

@@ -104,3 +104,5 @@ class Executor:
             except Exception as exc:  # noqa: BLE001
                 log.warning("Impossible d'envoyer %s à la corbeille : %s", action.destination, exc)
         return extracted, None
+
+# GROGNON

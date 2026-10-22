@@ -200,3 +200,5 @@ class ReviewView(ctk.CTkFrame):
         if action is None:
             return
         EditActionDialog(self, self.app, action)
+
+# GROGNON

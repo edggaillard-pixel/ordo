@@ -64,3 +64,5 @@ class SourceWatcher:
     @property
     def alive(self) -> bool:
         return self._observer.is_alive()
+
+# GROGNON

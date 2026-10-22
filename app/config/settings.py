@@ -323,3 +323,5 @@ class SettingsStore:
             except OSError:
                 pass
             raise
+
+# GROGNON

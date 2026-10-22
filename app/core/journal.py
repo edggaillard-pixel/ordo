@@ -164,3 +164,5 @@ def _remove_empty_parents(folder: Path, depth: int = 2) -> None:
         except OSError:
             return
         folder = folder.parent
+
+# GROGNON

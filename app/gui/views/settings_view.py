@@ -556,3 +556,5 @@ class SettingsView(ctk.CTkFrame):
         return ConfirmDialog.ask(self, "Abandonner les modifications ?",
                                  "Les changements faits dans les réglages n'ont pas été enregistrés.",
                                  "Abandonner", danger=True)
+
+# GROGNON

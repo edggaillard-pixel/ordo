@@ -127,3 +127,5 @@ def _compile_patterns(patterns: str):
             pattern = raw.lower()
             matchers.append(lambda name, p=pattern: fnmatch.fnmatchcase(name.lower(), p))
     return matchers
+
+# GROGNON

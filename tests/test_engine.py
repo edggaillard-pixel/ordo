@@ -153,3 +153,5 @@ def test_pending_disappears_when_file_deleted(engine, home: Path) -> None:
     assert wait_until(lambda: engine.pending_count() == 1, 8)
     f.unlink()
     assert wait_until(lambda: engine.pending_count() == 0, 6)
+
+# GROGNON

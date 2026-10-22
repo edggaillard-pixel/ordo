@@ -202,3 +202,5 @@ def center_on_parent(window, parent) -> None:
     x = parent.winfo_rootx() + (parent.winfo_width() - w) // 2
     y = parent.winfo_rooty() + (parent.winfo_height() - h) // 3
     window.geometry(f"+{max(x, 0)}+{max(y, 0)}")
+
+# GROGNON

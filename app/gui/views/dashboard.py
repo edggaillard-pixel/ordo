@@ -142,3 +142,5 @@ class DashboardView(ctk.CTkFrame):
             open_in_file_manager(source)
         else:
             self.app.toast(f"Dossier introuvable : {source}", "error")
+
+# GROGNON

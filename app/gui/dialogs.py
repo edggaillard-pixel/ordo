@@ -139,3 +139,5 @@ class EditActionDialog(ctk.CTkToplevel):
         if updated is None:
             self.app.toast("Ce fichier n'est plus en attente.", "warning")
         self.destroy()
+
+# GROGNON

@@ -110,3 +110,5 @@ def test_extract_tar_rejects_symlinks(tmp_path: Path) -> None:
         tf.addfile(info)
     with pytest.raises(archives.ArchiveError):
         archives.extract(t, tmp_path / "out/a", 10_000)
+
+# GROGNON

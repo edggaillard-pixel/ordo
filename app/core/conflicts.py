@@ -101,3 +101,5 @@ def resolve_conflict(
         candidate = f"{stem}_{stamp}_{counter}{ext}"
         counter += 1
     return candidate
+
+# GROGNON

@@ -49,3 +49,5 @@ class Notifier:
 
         script = f'display notification "{esc(message)}" with title "{esc(title)}"'
         subprocess.Popen(["osascript", "-e", script], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+
+# GROGNON

@@ -195,3 +195,5 @@ def file_date(path: Path, opts: RenameSettings) -> datetime:
 def preview(original: str, opts: RenameSettings, category: str | None = "Documents") -> str:
     """Aperçu utilisé par l'écran Réglages, avec la date du jour."""
     return build_name(original, NameContext(datetime.now(), category), opts)
+
+# GROGNON

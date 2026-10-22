@@ -16,3 +16,5 @@ APP_NAME = "Ordo"
 APP_AUTHOR = "Ordo"
 APP_ID = "com.ordo.app"
 __version__ = "1.0.0"
+
+# GROGNON

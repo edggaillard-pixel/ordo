@@ -118,3 +118,5 @@ class HistoryView(ctk.CTkFrame):
             open_in_file_manager(target)
         else:
             self.app.toast("Cet élément n'est plus à cet emplacement.", "warning")
+
+# GROGNON

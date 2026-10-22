@@ -119,3 +119,5 @@ class Batch:
 def same_path(a: Path, b: Path) -> bool:
     """Compare deux chemins en tenant compte de la casse du système."""
     return os.path.normcase(os.path.abspath(a)) == os.path.normcase(os.path.abspath(b))
+
+# GROGNON

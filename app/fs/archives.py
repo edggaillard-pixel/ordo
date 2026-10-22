@@ -119,3 +119,5 @@ def _single_root(staging: Path) -> Path | None:
 def _too_big(total: int, limit: int) -> str:
     mb = 1024 * 1024
     return f"Archive trop volumineuse une fois décompressée ({total // mb} Mo, limite {limit // mb} Mo)."
+
+# GROGNON

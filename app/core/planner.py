@@ -126,3 +126,5 @@ class Planner:
 
 def _norm(path: Path) -> str:
     return os.path.normcase(os.path.abspath(path))
+
+# GROGNON

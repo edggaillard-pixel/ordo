@@ -553,3 +553,5 @@ class Engine:
             self.notify(title, "\n".join(lines))
         except Exception:  # noqa: BLE001 - une notification ratée n'est pas grave
             log.debug("Notification impossible", exc_info=True)
+
+# GROGNON

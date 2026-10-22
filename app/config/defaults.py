@@ -133,3 +133,5 @@ DEFAULT_IGNORE_PATTERNS = [
 # Couleurs des pseudo-catégories.
 FOLDERS_COLOR = "#6C8EBF"
 DUPLICATES_COLOR = "#E5534B"
+
+# GROGNON

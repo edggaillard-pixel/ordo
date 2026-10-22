@@ -100,3 +100,5 @@ def resolve(color: tuple[str, str] | str) -> str:
     if isinstance(color, str):
         return color
     return color[1] if ctk.get_appearance_mode() == "Dark" else color[0]
+
+# GROGNON

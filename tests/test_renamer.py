@@ -73,3 +73,5 @@ def test_remove_copy_suffix() -> None:
     assert remove_copy_suffix("rapport (1)") == "rapport"
     assert remove_copy_suffix("rapport_copy 2") == "rapport"
     assert remove_copy_suffix("(1)") == "(1)"
+
+# GROGNON

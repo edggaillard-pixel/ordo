@@ -31,3 +31,5 @@ def setup_logging(directory: Path, debug: bool = False) -> Path:
     logging.getLogger("watchdog").setLevel(logging.WARNING)
     logging.getLogger("PIL").setLevel(logging.WARNING)
     return log_file
+
+# GROGNON

@@ -143,3 +143,5 @@ def open_in_file_manager(path: Path) -> None:
         subprocess.Popen(["open", "-R", str(path)] if path.is_file() else ["open", str(target)])
     else:
         subprocess.Popen(["xdg-open", str(target)])
+
+# GROGNON
